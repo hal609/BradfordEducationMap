@@ -1,0 +1,16 @@
+time_period,time_identifier,geographic_level,country_code,country_name,version,disadvantage_gap_index
+202425,Academic year,National,E92000001,England,Revised,3.92
+202324,Academic year,National,E92000001,England,Final,3.93
+202223,Academic year,National,E92000001,England,Final,3.94
+202122,Academic year,National,E92000001,England,Final,3.84
+202021,Academic year,National,E92000001,England,Revised,3.79
+201920,Academic year,National,E92000001,England,Revised,3.66
+201819,Academic year,National,E92000001,England,Final,3.7
+201718,Academic year,National,E92000001,England,Final,3.68
+201617,Academic year,National,E92000001,England,Final,3.66
+201516,Academic year,National,E92000001,England,Final,3.78
+201415,Academic year,National,E92000001,England,Final,3.79
+201314,Academic year,National,E92000001,England,Final,3.74
+201213,Academic year,National,E92000001,England,Final,3.8
+201112,Academic year,National,E92000001,England,Final,3.89
+201011,Academic year,National,E92000001,England,Final,4.07

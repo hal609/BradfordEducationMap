@@ -1,0 +1,3798 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a1f81a5b4ca2ac37f91e48d749af436 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4a1f81a5b4ca2ac37f91e48d749af436" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a1f81a5b4ca2ac37f91e48d749af436 = L.map(
+                "map_4a1f81a5b4ca2ac37f91e48d749af436",
+                {
+                    center: [53.7939, -1.752],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f46b46beb612c34b74d5a359298b980e = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f46b46beb612c34b74d5a359298b980e.addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var marker_7052efae0b7af7c55813a532af5d5029 = L.marker(
+                [53.8414013, -1.8275401],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_7bd3bd3c87d574dbc1edb140bef9fab8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd0b973b061e09e8c76b727dda1d5557 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_174ba04a741605b650840a2b87d54380 = $(`<div id="html_174ba04a741605b650840a2b87d54380" style="width: 100.0%; height: 100.0%;">Hazelbeck Special School</div>`)[0];
+                popup_dd0b973b061e09e8c76b727dda1d5557.setContent(html_174ba04a741605b650840a2b87d54380);
+            
+        
+
+        marker_7052efae0b7af7c55813a532af5d5029.bindPopup(popup_dd0b973b061e09e8c76b727dda1d5557)
+        ;
+
+        
+    
+    
+            marker_7052efae0b7af7c55813a532af5d5029.bindTooltip(
+                `<div>
+                     Hazelbeck Special School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7052efae0b7af7c55813a532af5d5029.setIcon(icon_7bd3bd3c87d574dbc1edb140bef9fab8);
+            
+    
+            var marker_371624136ab07bef7c6f17d055e310c1 = L.marker(
+                [53.7864138, -1.7612813],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_e6e003b572749f234c10957c50c23aa6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b70aad1e0a7806256d1e519a2408175 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_46a60dda107e087bb18a14b699730d77 = $(`<div id="html_46a60dda107e087bb18a14b699730d77" style="width: 100.0%; height: 100.0%;">Dixons Trinity Academy</div>`)[0];
+                popup_2b70aad1e0a7806256d1e519a2408175.setContent(html_46a60dda107e087bb18a14b699730d77);
+            
+        
+
+        marker_371624136ab07bef7c6f17d055e310c1.bindPopup(popup_2b70aad1e0a7806256d1e519a2408175)
+        ;
+
+        
+    
+    
+            marker_371624136ab07bef7c6f17d055e310c1.bindTooltip(
+                `<div>
+                     Dixons Trinity Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_371624136ab07bef7c6f17d055e310c1.setIcon(icon_e6e003b572749f234c10957c50c23aa6);
+            
+    
+            var marker_14a22415089cd783e3b71931f071af82 = L.marker(
+                [53.9125704, -1.6945897],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_c1b064fc01db2d11eee87b06b853e0af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c4ca584e313a0c409df7f2b1acf8372 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b5fcd91d793e3b3f9520b87235816e0 = $(`<div id="html_3b5fcd91d793e3b3f9520b87235816e0" style="width: 100.0%; height: 100.0%;">Otley Prince Henry's Grammar School Specialist Language College</div>`)[0];
+                popup_1c4ca584e313a0c409df7f2b1acf8372.setContent(html_3b5fcd91d793e3b3f9520b87235816e0);
+            
+        
+
+        marker_14a22415089cd783e3b71931f071af82.bindPopup(popup_1c4ca584e313a0c409df7f2b1acf8372)
+        ;
+
+        
+    
+    
+            marker_14a22415089cd783e3b71931f071af82.bindTooltip(
+                `<div>
+                     Otley Prince Henry's Grammar School Specialist Language College
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_14a22415089cd783e3b71931f071af82.setIcon(icon_c1b064fc01db2d11eee87b06b853e0af);
+            
+    
+            var marker_4894b82cfa5c25901860595f61fbfca6 = L.marker(
+                [53.8022475, -1.7382033],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_334f0d4207d7f0f2b3a1c8a504b00609 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_264e57507b26167b208d735f27d8504a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e2e28db5a4fa74c97943e0cca72492eb = $(`<div id="html_e2e28db5a4fa74c97943e0cca72492eb" style="width: 100.0%; height: 100.0%;">Carlton Bolling</div>`)[0];
+                popup_264e57507b26167b208d735f27d8504a.setContent(html_e2e28db5a4fa74c97943e0cca72492eb);
+            
+        
+
+        marker_4894b82cfa5c25901860595f61fbfca6.bindPopup(popup_264e57507b26167b208d735f27d8504a)
+        ;
+
+        
+    
+    
+            marker_4894b82cfa5c25901860595f61fbfca6.bindTooltip(
+                `<div>
+                     Carlton Bolling
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4894b82cfa5c25901860595f61fbfca6.setIcon(icon_334f0d4207d7f0f2b3a1c8a504b00609);
+            
+    
+            var marker_45b86aed2ae33f36ee7e6826ace0d1d9 = L.marker(
+                [53.776937, -1.7322263],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_6b0ee04f23bcf69302e8001b918238db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac46dacb7462ba7a61696a87f75abd28 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0321c6e4e73ecaf677d4b72c7bacaf05 = $(`<div id="html_0321c6e4e73ecaf677d4b72c7bacaf05" style="width: 100.0%; height: 100.0%;">Bradford Academy</div>`)[0];
+                popup_ac46dacb7462ba7a61696a87f75abd28.setContent(html_0321c6e4e73ecaf677d4b72c7bacaf05);
+            
+        
+
+        marker_45b86aed2ae33f36ee7e6826ace0d1d9.bindPopup(popup_ac46dacb7462ba7a61696a87f75abd28)
+        ;
+
+        
+    
+    
+            marker_45b86aed2ae33f36ee7e6826ace0d1d9.bindTooltip(
+                `<div>
+                     Bradford Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_45b86aed2ae33f36ee7e6826ace0d1d9.setIcon(icon_6b0ee04f23bcf69302e8001b918238db);
+            
+    
+            var marker_7f8308c14f0b3b436cfe2b156804ad48 = L.marker(
+                [53.7754389, -1.7774531],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_d704685c4826e7d3a5613c46afbc000d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed33b43c0173e5108a26ae9c6ae58064 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_370f0ab0de547b594e444182cce20e91 = $(`<div id="html_370f0ab0de547b594e444182cce20e91" style="width: 100.0%; height: 100.0%;">Co-op Academy Grange</div>`)[0];
+                popup_ed33b43c0173e5108a26ae9c6ae58064.setContent(html_370f0ab0de547b594e444182cce20e91);
+            
+        
+
+        marker_7f8308c14f0b3b436cfe2b156804ad48.bindPopup(popup_ed33b43c0173e5108a26ae9c6ae58064)
+        ;
+
+        
+    
+    
+            marker_7f8308c14f0b3b436cfe2b156804ad48.bindTooltip(
+                `<div>
+                     Co-op Academy Grange
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7f8308c14f0b3b436cfe2b156804ad48.setIcon(icon_d704685c4826e7d3a5613c46afbc000d);
+            
+    
+            var marker_15dd3b4bcaf166bd9ed4d88d8c911b3d = L.marker(
+                [53.7448624, -1.6894071],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_e6e78583916dff7a406f532b434aac75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85ccabef990545df694b8b79896ab025 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b356582d90f291e3f29c6d4f1cd3c2e = $(`<div id="html_5b356582d90f291e3f29c6d4f1cd3c2e" style="width: 100.0%; height: 100.0%;">BBG Academy</div>`)[0];
+                popup_85ccabef990545df694b8b79896ab025.setContent(html_5b356582d90f291e3f29c6d4f1cd3c2e);
+            
+        
+
+        marker_15dd3b4bcaf166bd9ed4d88d8c911b3d.bindPopup(popup_85ccabef990545df694b8b79896ab025)
+        ;
+
+        
+    
+    
+            marker_15dd3b4bcaf166bd9ed4d88d8c911b3d.bindTooltip(
+                `<div>
+                     BBG Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_15dd3b4bcaf166bd9ed4d88d8c911b3d.setIcon(icon_e6e78583916dff7a406f532b434aac75);
+            
+    
+            var marker_20a56ec7e3a4274fe9f1da78e4299935 = L.marker(
+                [53.8391148, -1.6986915],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_f44303a0bc145266388cb9c53cf19ad8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d27e4c1a356ff9c0aad1a4a5a8c8dca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80091de631296f6c35fce45eec58009a = $(`<div id="html_80091de631296f6c35fce45eec58009a" style="width: 100.0%; height: 100.0%;">Woodhouse Grove School</div>`)[0];
+                popup_1d27e4c1a356ff9c0aad1a4a5a8c8dca.setContent(html_80091de631296f6c35fce45eec58009a);
+            
+        
+
+        marker_20a56ec7e3a4274fe9f1da78e4299935.bindPopup(popup_1d27e4c1a356ff9c0aad1a4a5a8c8dca)
+        ;
+
+        
+    
+    
+            marker_20a56ec7e3a4274fe9f1da78e4299935.bindTooltip(
+                `<div>
+                     Woodhouse Grove School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20a56ec7e3a4274fe9f1da78e4299935.setIcon(icon_f44303a0bc145266388cb9c53cf19ad8);
+            
+    
+            var marker_48a6432884b130a2dc98cded97915c4b = L.marker(
+                [53.7841189, -1.6653642],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_a858cf7cb691332e9f63b4ed36da05a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08d63eaa9a25fe5ae0137f78e1769e65 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60dc61c2c54ec0f88090793e4887441d = $(`<div id="html_60dc61c2c54ec0f88090793e4887441d" style="width: 100.0%; height: 100.0%;">Fulneck School</div>`)[0];
+                popup_08d63eaa9a25fe5ae0137f78e1769e65.setContent(html_60dc61c2c54ec0f88090793e4887441d);
+            
+        
+
+        marker_48a6432884b130a2dc98cded97915c4b.bindPopup(popup_08d63eaa9a25fe5ae0137f78e1769e65)
+        ;
+
+        
+    
+    
+            marker_48a6432884b130a2dc98cded97915c4b.bindTooltip(
+                `<div>
+                     Fulneck School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_48a6432884b130a2dc98cded97915c4b.setIcon(icon_a858cf7cb691332e9f63b4ed36da05a5);
+            
+    
+            var marker_7840bc160cac5fc13ebd0c8f9b6c8b87 = L.marker(
+                [53.7932421, -1.656194],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_bc882d88c742b77d517029a3fbbd0b4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d33dd58da3b13ad50f6d71fbdd46dd30 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b066a0c64cbe2a68dfb9970a76f1c35 = $(`<div id="html_8b066a0c64cbe2a68dfb9970a76f1c35" style="width: 100.0%; height: 100.0%;">Crawshaw Academy</div>`)[0];
+                popup_d33dd58da3b13ad50f6d71fbdd46dd30.setContent(html_8b066a0c64cbe2a68dfb9970a76f1c35);
+            
+        
+
+        marker_7840bc160cac5fc13ebd0c8f9b6c8b87.bindPopup(popup_d33dd58da3b13ad50f6d71fbdd46dd30)
+        ;
+
+        
+    
+    
+            marker_7840bc160cac5fc13ebd0c8f9b6c8b87.bindTooltip(
+                `<div>
+                     Crawshaw Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7840bc160cac5fc13ebd0c8f9b6c8b87.setIcon(icon_bc882d88c742b77d517029a3fbbd0b4a);
+            
+    
+            var marker_fc59c5eae145711ea4e6af7bdafc1dc8 = L.marker(
+                [53.8004092, -1.6591737],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_f0b8f5d9edd43d30f64d24fbd1df3e64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd3caee97c49fc722d8605e34edb44c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5715a84d3c9312d4172f857ffb1e4c7 = $(`<div id="html_e5715a84d3c9312d4172f857ffb1e4c7" style="width: 100.0%; height: 100.0%;">Pudsey Grammar School</div>`)[0];
+                popup_fd3caee97c49fc722d8605e34edb44c8.setContent(html_e5715a84d3c9312d4172f857ffb1e4c7);
+            
+        
+
+        marker_fc59c5eae145711ea4e6af7bdafc1dc8.bindPopup(popup_fd3caee97c49fc722d8605e34edb44c8)
+        ;
+
+        
+    
+    
+            marker_fc59c5eae145711ea4e6af7bdafc1dc8.bindTooltip(
+                `<div>
+                     Pudsey Grammar School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fc59c5eae145711ea4e6af7bdafc1dc8.setIcon(icon_f0b8f5d9edd43d30f64d24fbd1df3e64);
+            
+    
+            var marker_0340afaa928d9c6d4df2a7aa8f1a0984 = L.marker(
+                [53.8429142, -1.7940616],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_e5e157103ba9c197af65f962179c6903 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32143bf01ddb0fd8b0575b63dba7573d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_433117dfc74cdcc3d7285e85de6d563a = $(`<div id="html_433117dfc74cdcc3d7285e85de6d563a" style="width: 100.0%; height: 100.0%;">Titus Salt School</div>`)[0];
+                popup_32143bf01ddb0fd8b0575b63dba7573d.setContent(html_433117dfc74cdcc3d7285e85de6d563a);
+            
+        
+
+        marker_0340afaa928d9c6d4df2a7aa8f1a0984.bindPopup(popup_32143bf01ddb0fd8b0575b63dba7573d)
+        ;
+
+        
+    
+    
+            marker_0340afaa928d9c6d4df2a7aa8f1a0984.bindTooltip(
+                `<div>
+                     Titus Salt School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0340afaa928d9c6d4df2a7aa8f1a0984.setIcon(icon_e5e157103ba9c197af65f962179c6903);
+            
+    
+            var marker_b8ddfe89bf46f91aad3bd4329a9bc976 = L.marker(
+                [53.8406483, -1.8282424],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_537eba15042d8b294a6c4cef413e2756 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17a50e5740613a0ecdc749c99d32f5d1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5c3da7e9e0d972012c0a7121dca333bf = $(`<div id="html_5c3da7e9e0d972012c0a7121dca333bf" style="width: 100.0%; height: 100.0%;">Beckfoot School</div>`)[0];
+                popup_17a50e5740613a0ecdc749c99d32f5d1.setContent(html_5c3da7e9e0d972012c0a7121dca333bf);
+            
+        
+
+        marker_b8ddfe89bf46f91aad3bd4329a9bc976.bindPopup(popup_17a50e5740613a0ecdc749c99d32f5d1)
+        ;
+
+        
+    
+    
+            marker_b8ddfe89bf46f91aad3bd4329a9bc976.bindTooltip(
+                `<div>
+                     Beckfoot School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8ddfe89bf46f91aad3bd4329a9bc976.setIcon(icon_537eba15042d8b294a6c4cef413e2756);
+            
+    
+            var marker_6ed77a447f16d6856f85c84d798be7ba = L.marker(
+                [53.7757542, -1.8127788],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_fde44f7eafa953afa70f57cee99ce23b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_221834cf205f81b6f8c580cb545ac46a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df3475591573349c0ca0dae0be512a42 = $(`<div id="html_df3475591573349c0ca0dae0be512a42" style="width: 100.0%; height: 100.0%;">Jaamiatul Imaam Muhammad Zakaria</div>`)[0];
+                popup_221834cf205f81b6f8c580cb545ac46a.setContent(html_df3475591573349c0ca0dae0be512a42);
+            
+        
+
+        marker_6ed77a447f16d6856f85c84d798be7ba.bindPopup(popup_221834cf205f81b6f8c580cb545ac46a)
+        ;
+
+        
+    
+    
+            marker_6ed77a447f16d6856f85c84d798be7ba.bindTooltip(
+                `<div>
+                     Jaamiatul Imaam Muhammad Zakaria
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6ed77a447f16d6856f85c84d798be7ba.setIcon(icon_fde44f7eafa953afa70f57cee99ce23b);
+            
+    
+            var marker_ce1cf0f3a3dbd59a734afd784f5d7d2a = L.marker(
+                [53.8838655, -1.7269556],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_4aed1652608b4bc3df7c4ff14a0456cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e52aa70c78293a153382b3f7a5b7419 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bbacfe1ea4cbae43d749bb7047f1c640 = $(`<div id="html_bbacfe1ea4cbae43d749bb7047f1c640" style="width: 100.0%; height: 100.0%;">St. Mary's Menston, a Catholic Voluntary Academy</div>`)[0];
+                popup_4e52aa70c78293a153382b3f7a5b7419.setContent(html_bbacfe1ea4cbae43d749bb7047f1c640);
+            
+        
+
+        marker_ce1cf0f3a3dbd59a734afd784f5d7d2a.bindPopup(popup_4e52aa70c78293a153382b3f7a5b7419)
+        ;
+
+        
+    
+    
+            marker_ce1cf0f3a3dbd59a734afd784f5d7d2a.bindTooltip(
+                `<div>
+                     St. Mary's Menston, a Catholic Voluntary Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce1cf0f3a3dbd59a734afd784f5d7d2a.setIcon(icon_4aed1652608b4bc3df7c4ff14a0456cc);
+            
+    
+            var marker_1f62724ac0cd7d9d9d1fd62cb461875e = L.marker(
+                [53.8995585, -1.9882215],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_08f5553d16900de598612fef3afdc90c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_599c37ca146570724520af22574af462 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_13189a6e6a90791cf81bcb73d7f5b29c = $(`<div id="html_13189a6e6a90791cf81bcb73d7f5b29c" style="width: 100.0%; height: 100.0%;">South Craven School</div>`)[0];
+                popup_599c37ca146570724520af22574af462.setContent(html_13189a6e6a90791cf81bcb73d7f5b29c);
+            
+        
+
+        marker_1f62724ac0cd7d9d9d1fd62cb461875e.bindPopup(popup_599c37ca146570724520af22574af462)
+        ;
+
+        
+    
+    
+            marker_1f62724ac0cd7d9d9d1fd62cb461875e.bindTooltip(
+                `<div>
+                     South Craven School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1f62724ac0cd7d9d9d1fd62cb461875e.setIcon(icon_08f5553d16900de598612fef3afdc90c);
+            
+    
+            var marker_7505e9100f6074d86db93e3e40d707bc = L.marker(
+                [53.8088328, -1.6585998],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_1ba66b3d7cf9c2c30917346994b1e370 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42dae334e3f4976f8037249635429b22 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e79783d7123dcfd76ea578784121e61 = $(`<div id="html_8e79783d7123dcfd76ea578784121e61" style="width: 100.0%; height: 100.0%;">West Specialist Inclusive Learning Centre (Mainsite)</div>`)[0];
+                popup_42dae334e3f4976f8037249635429b22.setContent(html_8e79783d7123dcfd76ea578784121e61);
+            
+        
+
+        marker_7505e9100f6074d86db93e3e40d707bc.bindPopup(popup_42dae334e3f4976f8037249635429b22)
+        ;
+
+        
+    
+    
+            marker_7505e9100f6074d86db93e3e40d707bc.bindTooltip(
+                `<div>
+                     West Specialist Inclusive Learning Centre (Mainsite)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7505e9100f6074d86db93e3e40d707bc.setIcon(icon_1ba66b3d7cf9c2c30917346994b1e370);
+            
+    
+            var marker_e1b126150a271869c978c71ae8caedff = L.marker(
+                [53.7115285, -1.877927],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_d4a6ad5bf0fb555e466e80e78f62931c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb800f473a64631462dd52ea83cd3af0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b272051068ec762fd7f3ff0f128e30b = $(`<div id="html_3b272051068ec762fd7f3ff0f128e30b" style="width: 100.0%; height: 100.0%;">The Crossley Heath School</div>`)[0];
+                popup_bb800f473a64631462dd52ea83cd3af0.setContent(html_3b272051068ec762fd7f3ff0f128e30b);
+            
+        
+
+        marker_e1b126150a271869c978c71ae8caedff.bindPopup(popup_bb800f473a64631462dd52ea83cd3af0)
+        ;
+
+        
+    
+    
+            marker_e1b126150a271869c978c71ae8caedff.bindTooltip(
+                `<div>
+                     The Crossley Heath School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e1b126150a271869c978c71ae8caedff.setIcon(icon_d4a6ad5bf0fb555e466e80e78f62931c);
+            
+    
+            var marker_d5fd5223266ffa7d8c0dd29ad153bd53 = L.marker(
+                [53.8147005, -1.6520781],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_027543d981153b35e08f831c7904eaae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a022df9a81876ae7fdff796b3339393 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2c949cc79d034b22b058b50120078c1b = $(`<div id="html_2c949cc79d034b22b058b50120078c1b" style="width: 100.0%; height: 100.0%;">Leeds West Academy</div>`)[0];
+                popup_2a022df9a81876ae7fdff796b3339393.setContent(html_2c949cc79d034b22b058b50120078c1b);
+            
+        
+
+        marker_d5fd5223266ffa7d8c0dd29ad153bd53.bindPopup(popup_2a022df9a81876ae7fdff796b3339393)
+        ;
+
+        
+    
+    
+            marker_d5fd5223266ffa7d8c0dd29ad153bd53.bindTooltip(
+                `<div>
+                     Leeds West Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d5fd5223266ffa7d8c0dd29ad153bd53.setIcon(icon_027543d981153b35e08f831c7904eaae);
+            
+    
+            var marker_9413d226e47d2bd61070752ffad51955 = L.marker(
+                [53.8426114, -1.7269034],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_ce589d4741da9ac793b3718b522aadf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c53290fdf35f569c1dc502ece594ca73 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_deaccaa974880c5105dff1bec88cb073 = $(`<div id="html_deaccaa974880c5105dff1bec88cb073" style="width: 100.0%; height: 100.0%;">Immanuel College</div>`)[0];
+                popup_c53290fdf35f569c1dc502ece594ca73.setContent(html_deaccaa974880c5105dff1bec88cb073);
+            
+        
+
+        marker_9413d226e47d2bd61070752ffad51955.bindPopup(popup_c53290fdf35f569c1dc502ece594ca73)
+        ;
+
+        
+    
+    
+            marker_9413d226e47d2bd61070752ffad51955.bindTooltip(
+                `<div>
+                     Immanuel College
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9413d226e47d2bd61070752ffad51955.setIcon(icon_ce589d4741da9ac793b3718b522aadf6);
+            
+    
+            var marker_1ab03534d2b1084ad0f1353b21ba8102 = L.marker(
+                [53.7139561, -1.9086],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_4f37ce741a3a7c2263101e625ab9df28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c66bce44ecf2f02b17e9ce5b7bbe2306 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0fcef35f801fdf3056485a6d9b6790bc = $(`<div id="html_0fcef35f801fdf3056485a6d9b6790bc" style="width: 100.0%; height: 100.0%;">Trinity Academy Grammar</div>`)[0];
+                popup_c66bce44ecf2f02b17e9ce5b7bbe2306.setContent(html_0fcef35f801fdf3056485a6d9b6790bc);
+            
+        
+
+        marker_1ab03534d2b1084ad0f1353b21ba8102.bindPopup(popup_c66bce44ecf2f02b17e9ce5b7bbe2306)
+        ;
+
+        
+    
+    
+            marker_1ab03534d2b1084ad0f1353b21ba8102.bindTooltip(
+                `<div>
+                     Trinity Academy Grammar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1ab03534d2b1084ad0f1353b21ba8102.setIcon(icon_4f37ce741a3a7c2263101e625ab9df28);
+            
+    
+            var marker_5fd28d58e94ce1d0ac2937b2439de4c0 = L.marker(
+                [53.9221081, -1.8146902],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_d8a97feb2e0eaecfd366f71df1357a66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71935dc1e110c1d147d00eb3c9c5491f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2aab9ab92fb78713928af3fe8b92976 = $(`<div id="html_b2aab9ab92fb78713928af3fe8b92976" style="width: 100.0%; height: 100.0%;">Ilkley Grammar School</div>`)[0];
+                popup_71935dc1e110c1d147d00eb3c9c5491f.setContent(html_b2aab9ab92fb78713928af3fe8b92976);
+            
+        
+
+        marker_5fd28d58e94ce1d0ac2937b2439de4c0.bindPopup(popup_71935dc1e110c1d147d00eb3c9c5491f)
+        ;
+
+        
+    
+    
+            marker_5fd28d58e94ce1d0ac2937b2439de4c0.bindTooltip(
+                `<div>
+                     Ilkley Grammar School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5fd28d58e94ce1d0ac2937b2439de4c0.setIcon(icon_d8a97feb2e0eaecfd366f71df1357a66);
+            
+    
+            var marker_0c1e3295e62e1bdc494fbb508d9a511b = L.marker(
+                [53.7239598, -1.893369],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_24127bb5373569b5d23d4afff9dc5fda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af04bae6bef3068b51592f1c5f067dcc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0752875d276da46ea5f711f9336dc4f6 = $(`<div id="html_0752875d276da46ea5f711f9336dc4f6" style="width: 100.0%; height: 100.0%;">The Halifax Academy</div>`)[0];
+                popup_af04bae6bef3068b51592f1c5f067dcc.setContent(html_0752875d276da46ea5f711f9336dc4f6);
+            
+        
+
+        marker_0c1e3295e62e1bdc494fbb508d9a511b.bindPopup(popup_af04bae6bef3068b51592f1c5f067dcc)
+        ;
+
+        
+    
+    
+            marker_0c1e3295e62e1bdc494fbb508d9a511b.bindTooltip(
+                `<div>
+                     The Halifax Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0c1e3295e62e1bdc494fbb508d9a511b.setIcon(icon_24127bb5373569b5d23d4afff9dc5fda);
+            
+    
+            var marker_bd29730360108466be48ce773761ebf7 = L.marker(
+                [53.7323736, -1.9755596],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_602fe72145614e0405578bed6b49776b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_846fb87ee9ce52641d04f20f8bed2f00 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d1a47edd7c823e1f31d7770e64ff92c4 = $(`<div id="html_d1a47edd7c823e1f31d7770e64ff92c4" style="width: 100.0%; height: 100.0%;">The Calder Learning Trust</div>`)[0];
+                popup_846fb87ee9ce52641d04f20f8bed2f00.setContent(html_d1a47edd7c823e1f31d7770e64ff92c4);
+            
+        
+
+        marker_bd29730360108466be48ce773761ebf7.bindPopup(popup_846fb87ee9ce52641d04f20f8bed2f00)
+        ;
+
+        
+    
+    
+            marker_bd29730360108466be48ce773761ebf7.bindTooltip(
+                `<div>
+                     The Calder Learning Trust
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bd29730360108466be48ce773761ebf7.setIcon(icon_602fe72145614e0405578bed6b49776b);
+            
+    
+            var marker_66880b292518281d378a90bf2fa422c3 = L.marker(
+                [53.8152003, -1.7691226],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_2eae728d8b9f70cbec96e25d6c7c8050 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5de370d698fb7d98aa21886049c8454d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b29dc6dcc74b0dce51462a5b3813597a = $(`<div id="html_b29dc6dcc74b0dce51462a5b3813597a" style="width: 100.0%; height: 100.0%;">Bradford Grammar School</div>`)[0];
+                popup_5de370d698fb7d98aa21886049c8454d.setContent(html_b29dc6dcc74b0dce51462a5b3813597a);
+            
+        
+
+        marker_66880b292518281d378a90bf2fa422c3.bindPopup(popup_5de370d698fb7d98aa21886049c8454d)
+        ;
+
+        
+    
+    
+            marker_66880b292518281d378a90bf2fa422c3.bindTooltip(
+                `<div>
+                     Bradford Grammar School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_66880b292518281d378a90bf2fa422c3.setIcon(icon_2eae728d8b9f70cbec96e25d6c7c8050);
+            
+    
+            var marker_a1a93c51e2ce17a02330309b9e11098b = L.marker(
+                [53.8715377, -1.7179556],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_8c7b1de26a6261233f31d99823d4c6cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cdad3f09d85a5345fb7cd457a0d42499 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9038d0b64d6503dc041e12f563f1d1b0 = $(`<div id="html_9038d0b64d6503dc041e12f563f1d1b0" style="width: 100.0%; height: 100.0%;">Guiseley School</div>`)[0];
+                popup_cdad3f09d85a5345fb7cd457a0d42499.setContent(html_9038d0b64d6503dc041e12f563f1d1b0);
+            
+        
+
+        marker_a1a93c51e2ce17a02330309b9e11098b.bindPopup(popup_cdad3f09d85a5345fb7cd457a0d42499)
+        ;
+
+        
+    
+    
+            marker_a1a93c51e2ce17a02330309b9e11098b.bindTooltip(
+                `<div>
+                     Guiseley School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a1a93c51e2ce17a02330309b9e11098b.setIcon(icon_8c7b1de26a6261233f31d99823d4c6cd);
+            
+    
+            var marker_64d87f3a63f4b1b4820acfeb525bd0dd = L.marker(
+                [53.7132381, -1.7944616],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_cc4d9c9c9e2d8f8297d293c10a21b2fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_206e84ad311d7c5453b184cf51f99288 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_41b5a55f7f2af1c5ae2fee9718ee3a69 = $(`<div id="html_41b5a55f7f2af1c5ae2fee9718ee3a69" style="width: 100.0%; height: 100.0%;">Brighouse High School</div>`)[0];
+                popup_206e84ad311d7c5453b184cf51f99288.setContent(html_41b5a55f7f2af1c5ae2fee9718ee3a69);
+            
+        
+
+        marker_64d87f3a63f4b1b4820acfeb525bd0dd.bindPopup(popup_206e84ad311d7c5453b184cf51f99288)
+        ;
+
+        
+    
+    
+            marker_64d87f3a63f4b1b4820acfeb525bd0dd.bindTooltip(
+                `<div>
+                     Brighouse High School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_64d87f3a63f4b1b4820acfeb525bd0dd.setIcon(icon_cc4d9c9c9e2d8f8297d293c10a21b2fc);
+            
+    
+            var marker_28ee52614f831acb702781acc0ef5ef4 = L.marker(
+                [53.7659198, -1.7940873],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_ab5d7db060e705a9f357bf03a2344bcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6173bc5aa7a5d74c0677f14f4479f6a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_74ef00c995e7e8f923301206b196fe81 = $(`<div id="html_74ef00c995e7e8f923301206b196fe81" style="width: 100.0%; height: 100.0%;">Buttershaw Business & Enterprise College Academy</div>`)[0];
+                popup_6173bc5aa7a5d74c0677f14f4479f6a4.setContent(html_74ef00c995e7e8f923301206b196fe81);
+            
+        
+
+        marker_28ee52614f831acb702781acc0ef5ef4.bindPopup(popup_6173bc5aa7a5d74c0677f14f4479f6a4)
+        ;
+
+        
+    
+    
+            marker_28ee52614f831acb702781acc0ef5ef4.bindTooltip(
+                `<div>
+                     Buttershaw Business & Enterprise College Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_28ee52614f831acb702781acc0ef5ef4.setIcon(icon_ab5d7db060e705a9f357bf03a2344bcd);
+            
+    
+            var marker_c7d733b610f707f0aff1456edf5ee4ed = L.marker(
+                [53.7268398, -1.7299748],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_fdc7ba0ce754b457b9446d02c84c9b50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d92c329e51a066c82802c314e6ec79d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_74dedf41aff9e1b1a7d40fed296bee71 = $(`<div id="html_74dedf41aff9e1b1a7d40fed296bee71" style="width: 100.0%; height: 100.0%;">Whitcliffe Mount, A Share Academy</div>`)[0];
+                popup_8d92c329e51a066c82802c314e6ec79d.setContent(html_74dedf41aff9e1b1a7d40fed296bee71);
+            
+        
+
+        marker_c7d733b610f707f0aff1456edf5ee4ed.bindPopup(popup_8d92c329e51a066c82802c314e6ec79d)
+        ;
+
+        
+    
+    
+            marker_c7d733b610f707f0aff1456edf5ee4ed.bindTooltip(
+                `<div>
+                     Whitcliffe Mount, A Share Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c7d733b610f707f0aff1456edf5ee4ed.setIcon(icon_fdc7ba0ce754b457b9446d02c84c9b50);
+            
+    
+            var marker_32d878b6d21584abf794e01f1d2a493c = L.marker(
+                [53.7910413, -1.8196026],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_09b2efeb0736226a5a8e1528897e862e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c15ad8b8107859a5224d75f900b0dfd0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e47f621d09acfea1594bd0f5c5ad80a0 = $(`<div id="html_e47f621d09acfea1594bd0f5c5ad80a0" style="width: 100.0%; height: 100.0%;">Beckfoot Thornton</div>`)[0];
+                popup_c15ad8b8107859a5224d75f900b0dfd0.setContent(html_e47f621d09acfea1594bd0f5c5ad80a0);
+            
+        
+
+        marker_32d878b6d21584abf794e01f1d2a493c.bindPopup(popup_c15ad8b8107859a5224d75f900b0dfd0)
+        ;
+
+        
+    
+    
+            marker_32d878b6d21584abf794e01f1d2a493c.bindTooltip(
+                `<div>
+                     Beckfoot Thornton
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_32d878b6d21584abf794e01f1d2a493c.setIcon(icon_09b2efeb0736226a5a8e1528897e862e);
+            
+    
+            var marker_b2cfddce1fe04cc78c22d3fe248c5934 = L.marker(
+                [53.7997309, -1.8119877],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_914ae6f34edd1e093bd5de398b9c473a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2d76c56deeebcb3a4ab2650f861476a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a693c51a598455d5e1a48bdb91a38bec = $(`<div id="html_a693c51a598455d5e1a48bdb91a38bec" style="width: 100.0%; height: 100.0%;">Dixons Allerton Academy</div>`)[0];
+                popup_e2d76c56deeebcb3a4ab2650f861476a.setContent(html_a693c51a598455d5e1a48bdb91a38bec);
+            
+        
+
+        marker_b2cfddce1fe04cc78c22d3fe248c5934.bindPopup(popup_e2d76c56deeebcb3a4ab2650f861476a)
+        ;
+
+        
+    
+    
+            marker_b2cfddce1fe04cc78c22d3fe248c5934.bindTooltip(
+                `<div>
+                     Dixons Allerton Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b2cfddce1fe04cc78c22d3fe248c5934.setIcon(icon_914ae6f34edd1e093bd5de398b9c473a);
+            
+    
+            var marker_305e5bc7ec54d0342afaf5935e4992c3 = L.marker(
+                [53.8031663, -1.7964124],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_6a8f027805512f944b9d89d1538f1c76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97bf536b02e8fb5340ef90bfc139eb9c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0d3ff94ccca1c8eb5fb38b3453493ee = $(`<div id="html_a0d3ff94ccca1c8eb5fb38b3453493ee" style="width: 100.0%; height: 100.0%;">Bradford Girls' Grammar School</div>`)[0];
+                popup_97bf536b02e8fb5340ef90bfc139eb9c.setContent(html_a0d3ff94ccca1c8eb5fb38b3453493ee);
+            
+        
+
+        marker_305e5bc7ec54d0342afaf5935e4992c3.bindPopup(popup_97bf536b02e8fb5340ef90bfc139eb9c)
+        ;
+
+        
+    
+    
+            marker_305e5bc7ec54d0342afaf5935e4992c3.bindTooltip(
+                `<div>
+                     Bradford Girls' Grammar School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_305e5bc7ec54d0342afaf5935e4992c3.setIcon(icon_6a8f027805512f944b9d89d1538f1c76);
+            
+    
+            var marker_5af4e7e622f6bb2f8ed1fc8592416c7a = L.marker(
+                [53.8140333, -1.7858234],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_be3ef548a6607087dfde09f90061d4a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f5b73a2e0ff837ec6dd72e8561b37b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff144c776adc1e2c2ffa1afd2fda93f2 = $(`<div id="html_ff144c776adc1e2c2ffa1afd2fda93f2" style="width: 100.0%; height: 100.0%;">St Bede's and St Joseph's Catholic College</div>`)[0];
+                popup_3f5b73a2e0ff837ec6dd72e8561b37b8.setContent(html_ff144c776adc1e2c2ffa1afd2fda93f2);
+            
+        
+
+        marker_5af4e7e622f6bb2f8ed1fc8592416c7a.bindPopup(popup_3f5b73a2e0ff837ec6dd72e8561b37b8)
+        ;
+
+        
+    
+    
+            marker_5af4e7e622f6bb2f8ed1fc8592416c7a.bindTooltip(
+                `<div>
+                     St Bede's and St Joseph's Catholic College
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5af4e7e622f6bb2f8ed1fc8592416c7a.setIcon(icon_be3ef548a6607087dfde09f90061d4a1);
+            
+    
+            var marker_022d45bcdb223ddd2a0ab213b091c1fd = L.marker(
+                [53.7714624, -1.7489111],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_21a405a4b735ab5389a2588a66b0d3a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f6e28005c3f7d4bcbff9ea7a670c849 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9e9e2d0a35a29ea77b060aec44b62e4a = $(`<div id="html_9e9e2d0a35a29ea77b060aec44b62e4a" style="width: 100.0%; height: 100.0%;">TLG Bradford</div>`)[0];
+                popup_6f6e28005c3f7d4bcbff9ea7a670c849.setContent(html_9e9e2d0a35a29ea77b060aec44b62e4a);
+            
+        
+
+        marker_022d45bcdb223ddd2a0ab213b091c1fd.bindPopup(popup_6f6e28005c3f7d4bcbff9ea7a670c849)
+        ;
+
+        
+    
+    
+            marker_022d45bcdb223ddd2a0ab213b091c1fd.bindTooltip(
+                `<div>
+                     TLG Bradford
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_022d45bcdb223ddd2a0ab213b091c1fd.setIcon(icon_21a405a4b735ab5389a2588a66b0d3a1);
+            
+    
+            var marker_820ab98cf2acf69f09d37fdafc491ee5 = L.marker(
+                [53.8367913, -1.7859075],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_7facda9b4287069c31026fdf3187c936 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99257aa2b91054fe66703be446adeb14 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e2815ee381c205006e72eca3887d18f0 = $(`<div id="html_e2815ee381c205006e72eca3887d18f0" style="width: 100.0%; height: 100.0%;">Bradford Alternative Provision Academy</div>`)[0];
+                popup_99257aa2b91054fe66703be446adeb14.setContent(html_e2815ee381c205006e72eca3887d18f0);
+            
+        
+
+        marker_820ab98cf2acf69f09d37fdafc491ee5.bindPopup(popup_99257aa2b91054fe66703be446adeb14)
+        ;
+
+        
+    
+    
+            marker_820ab98cf2acf69f09d37fdafc491ee5.bindTooltip(
+                `<div>
+                     Bradford Alternative Provision Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_820ab98cf2acf69f09d37fdafc491ee5.setIcon(icon_7facda9b4287069c31026fdf3187c936);
+            
+    
+            var marker_271a040f93427d46e578924961f5cf6e = L.marker(
+                [53.8186341, -1.811829],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_dd569842f639f83030b0a498b3c35763 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d999e57c67f390b02a6c2365bf634cb8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_be76a2fbf22f341ea2a5bcdaf5ccfa0e = $(`<div id="html_be76a2fbf22f341ea2a5bcdaf5ccfa0e" style="width: 100.0%; height: 100.0%;">Beckfoot Upper Heaton</div>`)[0];
+                popup_d999e57c67f390b02a6c2365bf634cb8.setContent(html_be76a2fbf22f341ea2a5bcdaf5ccfa0e);
+            
+        
+
+        marker_271a040f93427d46e578924961f5cf6e.bindPopup(popup_d999e57c67f390b02a6c2365bf634cb8)
+        ;
+
+        
+    
+    
+            marker_271a040f93427d46e578924961f5cf6e.bindTooltip(
+                `<div>
+                     Beckfoot Upper Heaton
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_271a040f93427d46e578924961f5cf6e.setIcon(icon_dd569842f639f83030b0a498b3c35763);
+            
+    
+            var marker_748a3e6172c59b65263cb2b7717f02bf = L.marker(
+                [53.8198964, -1.8124838],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_dc8528cde44bb675290dd12ad9d5d4f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_244225dba2d926880c653b0e81c9f22c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21af65f56b7eb824a5b1c6e9ebb3b17a = $(`<div id="html_21af65f56b7eb824a5b1c6e9ebb3b17a" style="width: 100.0%; height: 100.0%;">Belle Vue Girls' Academy</div>`)[0];
+                popup_244225dba2d926880c653b0e81c9f22c.setContent(html_21af65f56b7eb824a5b1c6e9ebb3b17a);
+            
+        
+
+        marker_748a3e6172c59b65263cb2b7717f02bf.bindPopup(popup_244225dba2d926880c653b0e81c9f22c)
+        ;
+
+        
+    
+    
+            marker_748a3e6172c59b65263cb2b7717f02bf.bindTooltip(
+                `<div>
+                     Belle Vue Girls' Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_748a3e6172c59b65263cb2b7717f02bf.setIcon(icon_dc8528cde44bb675290dd12ad9d5d4f0);
+            
+    
+            var marker_0a67cae0241eec1a23b8cdb4a5942f22 = L.marker(
+                [53.8187282, -1.8071853],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_8c1901dd3da3df227ddfe02c2c62ba04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9fa64ec3ceafaaedea8a600c2e802a82 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1f849f0b1c1ab43dcf3e76fe4fc1515 = $(`<div id="html_e1f849f0b1c1ab43dcf3e76fe4fc1515" style="width: 100.0%; height: 100.0%;">High Park School</div>`)[0];
+                popup_9fa64ec3ceafaaedea8a600c2e802a82.setContent(html_e1f849f0b1c1ab43dcf3e76fe4fc1515);
+            
+        
+
+        marker_0a67cae0241eec1a23b8cdb4a5942f22.bindPopup(popup_9fa64ec3ceafaaedea8a600c2e802a82)
+        ;
+
+        
+    
+    
+            marker_0a67cae0241eec1a23b8cdb4a5942f22.bindTooltip(
+                `<div>
+                     High Park School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0a67cae0241eec1a23b8cdb4a5942f22.setIcon(icon_8c1901dd3da3df227ddfe02c2c62ba04);
+            
+    
+            var marker_7098b7d7c004d91ae09352b0bf5ac727 = L.marker(
+                [53.8789222, -1.916129],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_1de1986c75494ab266f4d875a149c73f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9536a2fa2f7fc0c980bd57f27c992fa8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2e6d07c447f6394fa1d8f265bf165667 = $(`<div id="html_2e6d07c447f6394fa1d8f265bf165667" style="width: 100.0%; height: 100.0%;">Carlton Keighley</div>`)[0];
+                popup_9536a2fa2f7fc0c980bd57f27c992fa8.setContent(html_2e6d07c447f6394fa1d8f265bf165667);
+            
+        
+
+        marker_7098b7d7c004d91ae09352b0bf5ac727.bindPopup(popup_9536a2fa2f7fc0c980bd57f27c992fa8)
+        ;
+
+        
+    
+    
+            marker_7098b7d7c004d91ae09352b0bf5ac727.bindTooltip(
+                `<div>
+                     Carlton Keighley
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7098b7d7c004d91ae09352b0bf5ac727.setIcon(icon_1de1986c75494ab266f4d875a149c73f);
+            
+    
+            var marker_492c839fe1627c2467c8e7c68c96e41c = L.marker(
+                [53.7554809, -1.8807759],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_e20c8e6173fd5d2129ad2ce6385ce78c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00adb90bd2ace4818387b748b6a2dbd2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d47e6181854f35df1a718c1e5338e1b2 = $(`<div id="html_d47e6181854f35df1a718c1e5338e1b2" style="width: 100.0%; height: 100.0%;">The North Halifax Grammar School</div>`)[0];
+                popup_00adb90bd2ace4818387b748b6a2dbd2.setContent(html_d47e6181854f35df1a718c1e5338e1b2);
+            
+        
+
+        marker_492c839fe1627c2467c8e7c68c96e41c.bindPopup(popup_00adb90bd2ace4818387b748b6a2dbd2)
+        ;
+
+        
+    
+    
+            marker_492c839fe1627c2467c8e7c68c96e41c.bindTooltip(
+                `<div>
+                     The North Halifax Grammar School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_492c839fe1627c2467c8e7c68c96e41c.setIcon(icon_e20c8e6173fd5d2129ad2ce6385ce78c);
+            
+    
+            var marker_643495c2165ccc57decbdea93ad333a3 = L.marker(
+                [53.8569646, -1.6829091],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_f571a02d212b6a1fb5ef1b621ea36a69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_185656e45e33434cab54ffb8dd5d2351 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f0dbac3b721a2f0b0a3de7bc17eb8e23 = $(`<div id="html_f0dbac3b721a2f0b0a3de7bc17eb8e23" style="width: 100.0%; height: 100.0%;">Benton Park School</div>`)[0];
+                popup_185656e45e33434cab54ffb8dd5d2351.setContent(html_f0dbac3b721a2f0b0a3de7bc17eb8e23);
+            
+        
+
+        marker_643495c2165ccc57decbdea93ad333a3.bindPopup(popup_185656e45e33434cab54ffb8dd5d2351)
+        ;
+
+        
+    
+    
+            marker_643495c2165ccc57decbdea93ad333a3.bindTooltip(
+                `<div>
+                     Benton Park School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_643495c2165ccc57decbdea93ad333a3.setIcon(icon_f571a02d212b6a1fb5ef1b621ea36a69);
+            
+    
+            var marker_2b4d76c65e5054894ad290eec8c32370 = L.marker(
+                [53.8553895, -1.8467535],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_756676e27245f43f5348a1636b98688b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa5eb3f64bfa68e469ec5ba8e6f700a0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c840d6653aa6a87333107512bde9d8d3 = $(`<div id="html_c840d6653aa6a87333107512bde9d8d3" style="width: 100.0%; height: 100.0%;">Bingley Grammar School</div>`)[0];
+                popup_aa5eb3f64bfa68e469ec5ba8e6f700a0.setContent(html_c840d6653aa6a87333107512bde9d8d3);
+            
+        
+
+        marker_2b4d76c65e5054894ad290eec8c32370.bindPopup(popup_aa5eb3f64bfa68e469ec5ba8e6f700a0)
+        ;
+
+        
+    
+    
+            marker_2b4d76c65e5054894ad290eec8c32370.bindTooltip(
+                `<div>
+                     Bingley Grammar School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b4d76c65e5054894ad290eec8c32370.setIcon(icon_756676e27245f43f5348a1636b98688b);
+            
+    
+            var marker_a40ebbd0a26cd8ce7092d274742bec2d = L.marker(
+                [53.7645495, -1.8465963],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_2967d6d7ab0958f240c571c31b05fcb6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b3eb78029b1d1ef83a954831896552d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08a67d42d4a51ec5253fc8a4cad9698e = $(`<div id="html_08a67d42d4a51ec5253fc8a4cad9698e" style="width: 100.0%; height: 100.0%;">Trinity Academy Bradford</div>`)[0];
+                popup_1b3eb78029b1d1ef83a954831896552d.setContent(html_08a67d42d4a51ec5253fc8a4cad9698e);
+            
+        
+
+        marker_a40ebbd0a26cd8ce7092d274742bec2d.bindPopup(popup_1b3eb78029b1d1ef83a954831896552d)
+        ;
+
+        
+    
+    
+            marker_a40ebbd0a26cd8ce7092d274742bec2d.bindTooltip(
+                `<div>
+                     Trinity Academy Bradford
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a40ebbd0a26cd8ce7092d274742bec2d.setIcon(icon_2967d6d7ab0958f240c571c31b05fcb6);
+            
+    
+            var marker_5a2c68c130d2f1fc2ab72c10bcca1580 = L.marker(
+                [53.9544928, -2.0224166],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_0d7b7dbdb8b381b0266017aea3c63f27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1f6e528e1ddbf3c83bde4f9a52065c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_19258da6ab73d7a0ea14a2fe2fa80cf2 = $(`<div id="html_19258da6ab73d7a0ea14a2fe2fa80cf2" style="width: 100.0%; height: 100.0%;">Brooklands School</div>`)[0];
+                popup_e1f6e528e1ddbf3c83bde4f9a52065c9.setContent(html_19258da6ab73d7a0ea14a2fe2fa80cf2);
+            
+        
+
+        marker_5a2c68c130d2f1fc2ab72c10bcca1580.bindPopup(popup_e1f6e528e1ddbf3c83bde4f9a52065c9)
+        ;
+
+        
+    
+    
+            marker_5a2c68c130d2f1fc2ab72c10bcca1580.bindTooltip(
+                `<div>
+                     Brooklands School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a2c68c130d2f1fc2ab72c10bcca1580.setIcon(icon_0d7b7dbdb8b381b0266017aea3c63f27);
+            
+    
+            var marker_2ba6de1bf526436bbbc51e49e7d7eb53 = L.marker(
+                [53.8757291, -1.9178323],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_ab08195114e3dfe6ea38ff201b55b5cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac567e4b79e46943234d4f9e81b3a489 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_011a8d17d3006b80529a429a76eecb66 = $(`<div id="html_011a8d17d3006b80529a429a76eecb66" style="width: 100.0%; height: 100.0%;">The Holy Family Catholic School</div>`)[0];
+                popup_ac567e4b79e46943234d4f9e81b3a489.setContent(html_011a8d17d3006b80529a429a76eecb66);
+            
+        
+
+        marker_2ba6de1bf526436bbbc51e49e7d7eb53.bindPopup(popup_ac567e4b79e46943234d4f9e81b3a489)
+        ;
+
+        
+    
+    
+            marker_2ba6de1bf526436bbbc51e49e7d7eb53.bindTooltip(
+                `<div>
+                     The Holy Family Catholic School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2ba6de1bf526436bbbc51e49e7d7eb53.setIcon(icon_ab08195114e3dfe6ea38ff201b55b5cd);
+            
+    
+            var marker_322e4d60091edbefe4bb34f5850bfef7 = L.marker(
+                [53.8302533, -1.8168852],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_027184bb7c97afe817a4f9d8644b4c11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38c81e77a68e83a78bc4c6ba6ed4c927 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_921929611a7d16c3186254a44a4c6d5e = $(`<div id="html_921929611a7d16c3186254a44a4c6d5e" style="width: 100.0%; height: 100.0%;">Dixons Cottingley Academy</div>`)[0];
+                popup_38c81e77a68e83a78bc4c6ba6ed4c927.setContent(html_921929611a7d16c3186254a44a4c6d5e);
+            
+        
+
+        marker_322e4d60091edbefe4bb34f5850bfef7.bindPopup(popup_38c81e77a68e83a78bc4c6ba6ed4c927)
+        ;
+
+        
+    
+    
+            marker_322e4d60091edbefe4bb34f5850bfef7.bindTooltip(
+                `<div>
+                     Dixons Cottingley Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_322e4d60091edbefe4bb34f5850bfef7.setIcon(icon_027184bb7c97afe817a4f9d8644b4c11);
+            
+    
+            var marker_ff446e06a646a010754d070676cc1d58 = L.marker(
+                [53.8269641, -1.8915397],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_2f68df42be22eb5dbff6113aacf03625 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_801414b263b6a66d669143444eb8d60f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5c3c5591ab7035b85ca1a03b3738f97 = $(`<div id="html_f5c3c5591ab7035b85ca1a03b3738f97" style="width: 100.0%; height: 100.0%;">Parkside School</div>`)[0];
+                popup_801414b263b6a66d669143444eb8d60f.setContent(html_f5c3c5591ab7035b85ca1a03b3738f97);
+            
+        
+
+        marker_ff446e06a646a010754d070676cc1d58.bindPopup(popup_801414b263b6a66d669143444eb8d60f)
+        ;
+
+        
+    
+    
+            marker_ff446e06a646a010754d070676cc1d58.bindTooltip(
+                `<div>
+                     Parkside School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ff446e06a646a010754d070676cc1d58.setIcon(icon_2f68df42be22eb5dbff6113aacf03625);
+            
+    
+            var marker_5a8f43b1259e2d94da5851c5b123d60d = L.marker(
+                [53.8547968, -1.92527],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_061b4d6533107c955c0cbae18e8c9bd8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca8d5874e9b8469d8d5508737760b400 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f18a005dd67ce9df81cb6bcc5b94d7e = $(`<div id="html_1f18a005dd67ce9df81cb6bcc5b94d7e" style="width: 100.0%; height: 100.0%;">Beckfoot Oakbank</div>`)[0];
+                popup_ca8d5874e9b8469d8d5508737760b400.setContent(html_1f18a005dd67ce9df81cb6bcc5b94d7e);
+            
+        
+
+        marker_5a8f43b1259e2d94da5851c5b123d60d.bindPopup(popup_ca8d5874e9b8469d8d5508737760b400)
+        ;
+
+        
+    
+    
+            marker_5a8f43b1259e2d94da5851c5b123d60d.bindTooltip(
+                `<div>
+                     Beckfoot Oakbank
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a8f43b1259e2d94da5851c5b123d60d.setIcon(icon_061b4d6533107c955c0cbae18e8c9bd8);
+            
+    
+            var marker_04df8cd0f7536619d64ffcfd6efaac02 = L.marker(
+                [53.8182846, -1.743299],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_aeedb1a88b7066c3f6716c059341fd3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00600aeb2e26c0c421da1a5e249f1c74 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_83b53c035fffe75dc422bc5679e87a2c = $(`<div id="html_83b53c035fffe75dc422bc5679e87a2c" style="width: 100.0%; height: 100.0%;">Hanson Academy</div>`)[0];
+                popup_00600aeb2e26c0c421da1a5e249f1c74.setContent(html_83b53c035fffe75dc422bc5679e87a2c);
+            
+        
+
+        marker_04df8cd0f7536619d64ffcfd6efaac02.bindPopup(popup_00600aeb2e26c0c421da1a5e249f1c74)
+        ;
+
+        
+    
+    
+            marker_04df8cd0f7536619d64ffcfd6efaac02.bindTooltip(
+                `<div>
+                     Hanson Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_04df8cd0f7536619d64ffcfd6efaac02.setIcon(icon_aeedb1a88b7066c3f6716c059341fd3b);
+            
+    
+            var marker_5efa1b51d6793568ba23fe0b0b9b060c = L.marker(
+                [53.7422339, -1.7730158],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_e349e1c8f2b15c7d00bd12c72c7dec76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_832d66e1de0e50082f5c31252005606f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3eb7bb3df2d7ec4f0fa3903e82f98dc7 = $(`<div id="html_3eb7bb3df2d7ec4f0fa3903e82f98dc7" style="width: 100.0%; height: 100.0%;">Appleton Academy</div>`)[0];
+                popup_832d66e1de0e50082f5c31252005606f.setContent(html_3eb7bb3df2d7ec4f0fa3903e82f98dc7);
+            
+        
+
+        marker_5efa1b51d6793568ba23fe0b0b9b060c.bindPopup(popup_832d66e1de0e50082f5c31252005606f)
+        ;
+
+        
+    
+    
+            marker_5efa1b51d6793568ba23fe0b0b9b060c.bindTooltip(
+                `<div>
+                     Appleton Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5efa1b51d6793568ba23fe0b0b9b060c.setIcon(icon_e349e1c8f2b15c7d00bd12c72c7dec76);
+            
+    
+            var marker_d96c2adc710edc3f3fc22c569dde3498 = L.marker(
+                [53.780192, -1.7569034],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_2862ec566fc738161662385acf186e77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0600ab0d7438780de633d3c32fafc7b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_61bfef6cf54a562f79503b7783cd2c0a = $(`<div id="html_61bfef6cf54a562f79503b7783cd2c0a" style="width: 100.0%; height: 100.0%;">Dixons City Academy</div>`)[0];
+                popup_0600ab0d7438780de633d3c32fafc7b5.setContent(html_61bfef6cf54a562f79503b7783cd2c0a);
+            
+        
+
+        marker_d96c2adc710edc3f3fc22c569dde3498.bindPopup(popup_0600ab0d7438780de633d3c32fafc7b5)
+        ;
+
+        
+    
+    
+            marker_d96c2adc710edc3f3fc22c569dde3498.bindTooltip(
+                `<div>
+                     Dixons City Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d96c2adc710edc3f3fc22c569dde3498.setIcon(icon_2862ec566fc738161662385acf186e77);
+            
+    
+            var marker_e8ef89ef956b185912113883a9285577 = L.marker(
+                [53.7217837, -1.7901928],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_118a81386a6313e52752638df9cdba2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e13a3fd2dfdf382cbd00406b4198b563 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de092cf9dc2cbc27df6e9ab4ddecb55f = $(`<div id="html_de092cf9dc2cbc27df6e9ab4ddecb55f" style="width: 100.0%; height: 100.0%;">Lightcliffe Academy</div>`)[0];
+                popup_e13a3fd2dfdf382cbd00406b4198b563.setContent(html_de092cf9dc2cbc27df6e9ab4ddecb55f);
+            
+        
+
+        marker_e8ef89ef956b185912113883a9285577.bindPopup(popup_e13a3fd2dfdf382cbd00406b4198b563)
+        ;
+
+        
+    
+    
+            marker_e8ef89ef956b185912113883a9285577.bindTooltip(
+                `<div>
+                     Lightcliffe Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e8ef89ef956b185912113883a9285577.setIcon(icon_118a81386a6313e52752638df9cdba2b);
+            
+    
+            var marker_32e555ba2e0f7efea100dd3a74b11eef = L.marker(
+                [53.7288351, -1.8130445],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_09eb44ae8ab719af7c08b0f160e29e96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33f86c52d7b3ad38b01f20993daf5cf2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_62089aef05fe1323d094cda1d380045c = $(`<div id="html_62089aef05fe1323d094cda1d380045c" style="width: 100.0%; height: 100.0%;">Hipperholme Grammar School</div>`)[0];
+                popup_33f86c52d7b3ad38b01f20993daf5cf2.setContent(html_62089aef05fe1323d094cda1d380045c);
+            
+        
+
+        marker_32e555ba2e0f7efea100dd3a74b11eef.bindPopup(popup_33f86c52d7b3ad38b01f20993daf5cf2)
+        ;
+
+        
+    
+    
+            marker_32e555ba2e0f7efea100dd3a74b11eef.bindTooltip(
+                `<div>
+                     Hipperholme Grammar School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_32e555ba2e0f7efea100dd3a74b11eef.setIcon(icon_09eb44ae8ab719af7c08b0f160e29e96);
+            
+    
+            var marker_7b2f94a5764f3b19f5229006ca5cd200 = L.marker(
+                [53.7256316, -1.8059831],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_5f9597ce868d8c193950f526880eef97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48a3451f9a32f80257f3b18944f0807f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_425b07e1b6f3158cc11ec17fb82b803b = $(`<div id="html_425b07e1b6f3158cc11ec17fb82b803b" style="width: 100.0%; height: 100.0%;">Hipperholme Grammar School</div>`)[0];
+                popup_48a3451f9a32f80257f3b18944f0807f.setContent(html_425b07e1b6f3158cc11ec17fb82b803b);
+            
+        
+
+        marker_7b2f94a5764f3b19f5229006ca5cd200.bindPopup(popup_48a3451f9a32f80257f3b18944f0807f)
+        ;
+
+        
+    
+    
+            marker_7b2f94a5764f3b19f5229006ca5cd200.bindTooltip(
+                `<div>
+                     Hipperholme Grammar School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7b2f94a5764f3b19f5229006ca5cd200.setIcon(icon_5f9597ce868d8c193950f526880eef97);
+            
+    
+            var marker_efee48aae81e70d2b4c3b73d146acfa4 = L.marker(
+                [53.7560663, -1.8859147],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_016d892da99ccba7729200761f0f2afc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_231a9e2e67f40abca4e191bfad7feb5c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18b58d12921d734e4929f0fe1dad8bb7 = $(`<div id="html_18b58d12921d734e4929f0fe1dad8bb7" style="width: 100.0%; height: 100.0%;">The Whitley AP Academy</div>`)[0];
+                popup_231a9e2e67f40abca4e191bfad7feb5c.setContent(html_18b58d12921d734e4929f0fe1dad8bb7);
+            
+        
+
+        marker_efee48aae81e70d2b4c3b73d146acfa4.bindPopup(popup_231a9e2e67f40abca4e191bfad7feb5c)
+        ;
+
+        
+    
+    
+            marker_efee48aae81e70d2b4c3b73d146acfa4.bindTooltip(
+                `<div>
+                     The Whitley AP Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_efee48aae81e70d2b4c3b73d146acfa4.setIcon(icon_016d892da99ccba7729200761f0f2afc);
+            
+    
+            var marker_449579f607eb28ca93644e95d07bd221 = L.marker(
+                [53.7569575, -1.8811794],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_6bc7fa5222cb03da904fcc264c2f08e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cec62406f920f423153c30086ee03e88 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a3b377e0d1d53c6b29f62f0f76f9f0a = $(`<div id="html_8a3b377e0d1d53c6b29f62f0f76f9f0a" style="width: 100.0%; height: 100.0%;">The Whitley AP Academy</div>`)[0];
+                popup_cec62406f920f423153c30086ee03e88.setContent(html_8a3b377e0d1d53c6b29f62f0f76f9f0a);
+            
+        
+
+        marker_449579f607eb28ca93644e95d07bd221.bindPopup(popup_cec62406f920f423153c30086ee03e88)
+        ;
+
+        
+    
+    
+            marker_449579f607eb28ca93644e95d07bd221.bindTooltip(
+                `<div>
+                     The Whitley AP Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_449579f607eb28ca93644e95d07bd221.setIcon(icon_6bc7fa5222cb03da904fcc264c2f08e2);
+            
+    
+            var marker_4eaf25009f8d9dc322a2c50d94cd6cfc = L.marker(
+                [53.8201895, -1.7603916],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_560fa36fc8c29c35dccff368f695c248 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09cf6aafed0d216fe7f29a51e9bfe0fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4095fcf3dce24676e633ceac88f5bac1 = $(`<div id="html_4095fcf3dce24676e633ceac88f5bac1" style="width: 100.0%; height: 100.0%;">Bradford Christian School</div>`)[0];
+                popup_09cf6aafed0d216fe7f29a51e9bfe0fa.setContent(html_4095fcf3dce24676e633ceac88f5bac1);
+            
+        
+
+        marker_4eaf25009f8d9dc322a2c50d94cd6cfc.bindPopup(popup_09cf6aafed0d216fe7f29a51e9bfe0fa)
+        ;
+
+        
+    
+    
+            marker_4eaf25009f8d9dc322a2c50d94cd6cfc.bindTooltip(
+                `<div>
+                     Bradford Christian School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4eaf25009f8d9dc322a2c50d94cd6cfc.setIcon(icon_560fa36fc8c29c35dccff368f695c248);
+            
+    
+            var marker_250657b23a40c86c578f09f6fea7dc53 = L.marker(
+                [53.8056783, -1.7471429],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_7a7d49f15977a39e2e791fd8d3cff636 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fe4305bed35119cf539f06251289ff0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f2e783160a58fe0805f016402c72b76 = $(`<div id="html_3f2e783160a58fe0805f016402c72b76" style="width: 100.0%; height: 100.0%;">Feversham Girls' Secondary Academy</div>`)[0];
+                popup_2fe4305bed35119cf539f06251289ff0.setContent(html_3f2e783160a58fe0805f016402c72b76);
+            
+        
+
+        marker_250657b23a40c86c578f09f6fea7dc53.bindPopup(popup_2fe4305bed35119cf539f06251289ff0)
+        ;
+
+        
+    
+    
+            marker_250657b23a40c86c578f09f6fea7dc53.bindTooltip(
+                `<div>
+                     Feversham Girls' Secondary Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_250657b23a40c86c578f09f6fea7dc53.setIcon(icon_7a7d49f15977a39e2e791fd8d3cff636);
+            
+    
+            var marker_bd051e5e7d468648b517d75039a7422a = L.marker(
+                [53.7779598, -1.7370355],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_77212c0ce8e8e054794a388805c90701 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90ad50bed62491148f20819dc696eead = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe465773e990225de05b49615f4837a2 = $(`<div id="html_fe465773e990225de05b49615f4837a2" style="width: 100.0%; height: 100.0%;">Oastlers School</div>`)[0];
+                popup_90ad50bed62491148f20819dc696eead.setContent(html_fe465773e990225de05b49615f4837a2);
+            
+        
+
+        marker_bd051e5e7d468648b517d75039a7422a.bindPopup(popup_90ad50bed62491148f20819dc696eead)
+        ;
+
+        
+    
+    
+            marker_bd051e5e7d468648b517d75039a7422a.bindTooltip(
+                `<div>
+                     Oastlers School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bd051e5e7d468648b517d75039a7422a.setIcon(icon_77212c0ce8e8e054794a388805c90701);
+            
+    
+            var marker_21dda3ec22d4115b2535855540007f6a = L.marker(
+                [53.7649195, -1.6972069],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_11acfd42eab75580fe4270e24f1f932e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d170bac29dfb57749ba999a83909b5b0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_55a3a98ddec068f77648ee11c4f7d123 = $(`<div id="html_55a3a98ddec068f77648ee11c4f7d123" style="width: 100.0%; height: 100.0%;">Tong Leadership Academy</div>`)[0];
+                popup_d170bac29dfb57749ba999a83909b5b0.setContent(html_55a3a98ddec068f77648ee11c4f7d123);
+            
+        
+
+        marker_21dda3ec22d4115b2535855540007f6a.bindPopup(popup_d170bac29dfb57749ba999a83909b5b0)
+        ;
+
+        
+    
+    
+            marker_21dda3ec22d4115b2535855540007f6a.bindTooltip(
+                `<div>
+                     Tong Leadership Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_21dda3ec22d4115b2535855540007f6a.setIcon(icon_11acfd42eab75580fe4270e24f1f932e);
+            
+    
+            var marker_29769fd437cffa2b45c2f13ff7cdd89b = L.marker(
+                [53.7899115, -1.7881952],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_f0297d65aed05fcfb980b4a1a9c4fba5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94c1304027f3513a4956269e8b76c1c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6ea34353e7a7f001967506da2bfb6b67 = $(`<div id="html_6ea34353e7a7f001967506da2bfb6b67" style="width: 100.0%; height: 100.0%;">Dixons Kings Academy</div>`)[0];
+                popup_94c1304027f3513a4956269e8b76c1c6.setContent(html_6ea34353e7a7f001967506da2bfb6b67);
+            
+        
+
+        marker_29769fd437cffa2b45c2f13ff7cdd89b.bindPopup(popup_94c1304027f3513a4956269e8b76c1c6)
+        ;
+
+        
+    
+    
+            marker_29769fd437cffa2b45c2f13ff7cdd89b.bindTooltip(
+                `<div>
+                     Dixons Kings Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_29769fd437cffa2b45c2f13ff7cdd89b.setIcon(icon_f0297d65aed05fcfb980b4a1a9c4fba5);
+            
+    
+            var marker_20cd11c5aecba77a6ce9e847ffa1f3fb = L.marker(
+                [53.7967168, -1.7151923],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_5c66d85b81f3a6382904f124bf3b9337 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10f3e4d97d388f4cb0ccb4caeae9d4cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_01349c88945098f7751577a2dfa007ca = $(`<div id="html_01349c88945098f7751577a2dfa007ca" style="width: 100.0%; height: 100.0%;">Laisterdyke Leadership Academy</div>`)[0];
+                popup_10f3e4d97d388f4cb0ccb4caeae9d4cf.setContent(html_01349c88945098f7751577a2dfa007ca);
+            
+        
+
+        marker_20cd11c5aecba77a6ce9e847ffa1f3fb.bindPopup(popup_10f3e4d97d388f4cb0ccb4caeae9d4cf)
+        ;
+
+        
+    
+    
+            marker_20cd11c5aecba77a6ce9e847ffa1f3fb.bindTooltip(
+                `<div>
+                     Laisterdyke Leadership Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20cd11c5aecba77a6ce9e847ffa1f3fb.setIcon(icon_5c66d85b81f3a6382904f124bf3b9337);
+            
+    
+            var marker_900dc34b6af478f6eb86b2242e9c0d70 = L.marker(
+                [53.7758548, -1.7537477],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_95c164cb6a7e31d96cb6e3c38c7a550a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76f495b314a3f671d5c0e149265dcf5b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_98955f39e76793e606ecd80b9e40e95f = $(`<div id="html_98955f39e76793e606ecd80b9e40e95f" style="width: 100.0%; height: 100.0%;">The Fountain School</div>`)[0];
+                popup_76f495b314a3f671d5c0e149265dcf5b.setContent(html_98955f39e76793e606ecd80b9e40e95f);
+            
+        
+
+        marker_900dc34b6af478f6eb86b2242e9c0d70.bindPopup(popup_76f495b314a3f671d5c0e149265dcf5b)
+        ;
+
+        
+    
+    
+            marker_900dc34b6af478f6eb86b2242e9c0d70.bindTooltip(
+                `<div>
+                     The Fountain School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_900dc34b6af478f6eb86b2242e9c0d70.setIcon(icon_95c164cb6a7e31d96cb6e3c38c7a550a);
+            
+    
+            var marker_71bc4132efe6f62fbc47f9c174bddf9f = L.marker(
+                [53.8060766, -1.7610324],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_eff0d97168d96f5c2487517cc1002c91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_459a8e9ad5aa38610185be173448d1d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f4a652261a8f99d8a41f5634e750e28d = $(`<div id="html_f4a652261a8f99d8a41f5634e750e28d" style="width: 100.0%; height: 100.0%;">Al Mumin Primary and Secondary School</div>`)[0];
+                popup_459a8e9ad5aa38610185be173448d1d9.setContent(html_f4a652261a8f99d8a41f5634e750e28d);
+            
+        
+
+        marker_71bc4132efe6f62fbc47f9c174bddf9f.bindPopup(popup_459a8e9ad5aa38610185be173448d1d9)
+        ;
+
+        
+    
+    
+            marker_71bc4132efe6f62fbc47f9c174bddf9f.bindTooltip(
+                `<div>
+                     Al Mumin Primary and Secondary School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_71bc4132efe6f62fbc47f9c174bddf9f.setIcon(icon_eff0d97168d96f5c2487517cc1002c91);
+            
+    
+            var marker_1500964c245984ec6b05397383e1ed6d = L.marker(
+                [53.7761324, -1.7709192],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_54e1e1d3cae9dc5435db9a8797b995f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be7e411afef1dd9010a763ee66e43611 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_17c0e3d6f684763e6200a80396610be3 = $(`<div id="html_17c0e3d6f684763e6200a80396610be3" style="width: 100.0%; height: 100.0%;">Eternal Light Secondary School</div>`)[0];
+                popup_be7e411afef1dd9010a763ee66e43611.setContent(html_17c0e3d6f684763e6200a80396610be3);
+            
+        
+
+        marker_1500964c245984ec6b05397383e1ed6d.bindPopup(popup_be7e411afef1dd9010a763ee66e43611)
+        ;
+
+        
+    
+    
+            marker_1500964c245984ec6b05397383e1ed6d.bindTooltip(
+                `<div>
+                     Eternal Light Secondary School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1500964c245984ec6b05397383e1ed6d.setIcon(icon_54e1e1d3cae9dc5435db9a8797b995f0);
+            
+    
+            var marker_ef2072e47a7919f871f12243a164ec69 = L.marker(
+                [53.7332924, -1.9034431],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_108865d402989ef907a800e346a6fdcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c1ba901a61f821bfe9f12b5b5b8d49d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_28221047699f30bcbcd53846008859cd = $(`<div id="html_28221047699f30bcbcd53846008859cd" style="width: 100.0%; height: 100.0%;">Broadwood School</div>`)[0];
+                popup_3c1ba901a61f821bfe9f12b5b5b8d49d.setContent(html_28221047699f30bcbcd53846008859cd);
+            
+        
+
+        marker_ef2072e47a7919f871f12243a164ec69.bindPopup(popup_3c1ba901a61f821bfe9f12b5b5b8d49d)
+        ;
+
+        
+    
+    
+            marker_ef2072e47a7919f871f12243a164ec69.bindTooltip(
+                `<div>
+                     Broadwood School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ef2072e47a7919f871f12243a164ec69.setIcon(icon_108865d402989ef907a800e346a6fdcd);
+            
+    
+            var marker_d68d5e07bace7047af3fff6e417f356c = L.marker(
+                [53.7752415, -1.7247212],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_f8d25e39dd211d24b2414c0ec8930c5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_990b5af849012b9d9af942d78fc59484 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4ed18d896f9fe17df0726950f03e35f0 = $(`<div id="html_4ed18d896f9fe17df0726950f03e35f0" style="width: 100.0%; height: 100.0%;">Darul Uloom Dawatul Imaan</div>`)[0];
+                popup_990b5af849012b9d9af942d78fc59484.setContent(html_4ed18d896f9fe17df0726950f03e35f0);
+            
+        
+
+        marker_d68d5e07bace7047af3fff6e417f356c.bindPopup(popup_990b5af849012b9d9af942d78fc59484)
+        ;
+
+        
+    
+    
+            marker_d68d5e07bace7047af3fff6e417f356c.bindTooltip(
+                `<div>
+                     Darul Uloom Dawatul Imaan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d68d5e07bace7047af3fff6e417f356c.setIcon(icon_f8d25e39dd211d24b2414c0ec8930c5b);
+            
+    
+            var marker_e161c113638732d81b95cd323e70faa5 = L.marker(
+                [53.8154644, -1.7662401],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_7a9003530dab110afdd932bd7ad2e910 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f07f5f9131c92c6d8d24602cfbe6031 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dee198723b2890bb732a67a68f2914d0 = $(`<div id="html_dee198723b2890bb732a67a68f2914d0" style="width: 100.0%; height: 100.0%;">Oasis Academy Lister Park</div>`)[0];
+                popup_4f07f5f9131c92c6d8d24602cfbe6031.setContent(html_dee198723b2890bb732a67a68f2914d0);
+            
+        
+
+        marker_e161c113638732d81b95cd323e70faa5.bindPopup(popup_4f07f5f9131c92c6d8d24602cfbe6031)
+        ;
+
+        
+    
+    
+            marker_e161c113638732d81b95cd323e70faa5.bindTooltip(
+                `<div>
+                     Oasis Academy Lister Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e161c113638732d81b95cd323e70faa5.setIcon(icon_7a9003530dab110afdd932bd7ad2e910);
+            
+    
+            var marker_633ac055cb6ca494398999c44f49e178 = L.marker(
+                [53.9476636, -2.0163528],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_5e627feda9f90c7cb6b1597521a1659f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f26dd0ff5f05289d97235ba8c44150ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10ab106bd19dac8cdeb9e2529b50bcfa = $(`<div id="html_10ab106bd19dac8cdeb9e2529b50bcfa" style="width: 100.0%; height: 100.0%;">Craven Pupil Referral Service</div>`)[0];
+                popup_f26dd0ff5f05289d97235ba8c44150ec.setContent(html_10ab106bd19dac8cdeb9e2529b50bcfa);
+            
+        
+
+        marker_633ac055cb6ca494398999c44f49e178.bindPopup(popup_f26dd0ff5f05289d97235ba8c44150ec)
+        ;
+
+        
+    
+    
+            marker_633ac055cb6ca494398999c44f49e178.bindTooltip(
+                `<div>
+                     Craven Pupil Referral Service
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_633ac055cb6ca494398999c44f49e178.setIcon(icon_5e627feda9f90c7cb6b1597521a1659f);
+            
+    
+            var marker_f2105f52b659592440d2dc39d0a60415 = L.marker(
+                [53.8093937, -1.6878234],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_8d933b1b9aee14d5c2780d555e9b04e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6df6a911d98fd3c87d6217a4a0123829 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_74ba0aca4e7e44900b8dc0d9204727d3 = $(`<div id="html_74ba0aca4e7e44900b8dc0d9204727d3" style="width: 100.0%; height: 100.0%;">Co-op Academy Priesthorpe</div>`)[0];
+                popup_6df6a911d98fd3c87d6217a4a0123829.setContent(html_74ba0aca4e7e44900b8dc0d9204727d3);
+            
+        
+
+        marker_f2105f52b659592440d2dc39d0a60415.bindPopup(popup_6df6a911d98fd3c87d6217a4a0123829)
+        ;
+
+        
+    
+    
+            marker_f2105f52b659592440d2dc39d0a60415.bindTooltip(
+                `<div>
+                     Co-op Academy Priesthorpe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f2105f52b659592440d2dc39d0a60415.setIcon(icon_8d933b1b9aee14d5c2780d555e9b04e6);
+            
+    
+            var marker_38b84ccc8a4324eae7ca90ff3b68a2ab = L.marker(
+                [53.8001567, -1.7815044],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_ad7860ed6e0429ec4f202edd5884d583 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2a0ae90600ee61e35b655c51bd26cc4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9b6088bca880b066082ad026c8cb9c3 = $(`<div id="html_d9b6088bca880b066082ad026c8cb9c3" style="width: 100.0%; height: 100.0%;">Prism Independent School</div>`)[0];
+                popup_f2a0ae90600ee61e35b655c51bd26cc4.setContent(html_d9b6088bca880b066082ad026c8cb9c3);
+            
+        
+
+        marker_38b84ccc8a4324eae7ca90ff3b68a2ab.bindPopup(popup_f2a0ae90600ee61e35b655c51bd26cc4)
+        ;
+
+        
+    
+    
+            marker_38b84ccc8a4324eae7ca90ff3b68a2ab.bindTooltip(
+                `<div>
+                     Prism Independent School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_38b84ccc8a4324eae7ca90ff3b68a2ab.setIcon(icon_ad7860ed6e0429ec4f202edd5884d583);
+            
+    
+            var marker_875a2392eac84ce84ee6051d1414c5df = L.marker(
+                [53.7799027, -1.723678],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_f92b202fd42465f989aafbe469036177 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf5b039e1544d22de8df4e7b795e33b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_88d759d41e7a7e8947b9bf08277454da = $(`<div id="html_88d759d41e7a7e8947b9bf08277454da" style="width: 100.0%; height: 100.0%;">Bradford Forster Academy</div>`)[0];
+                popup_cf5b039e1544d22de8df4e7b795e33b1.setContent(html_88d759d41e7a7e8947b9bf08277454da);
+            
+        
+
+        marker_875a2392eac84ce84ee6051d1414c5df.bindPopup(popup_cf5b039e1544d22de8df4e7b795e33b1)
+        ;
+
+        
+    
+    
+            marker_875a2392eac84ce84ee6051d1414c5df.bindTooltip(
+                `<div>
+                     Bradford Forster Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_875a2392eac84ce84ee6051d1414c5df.setIcon(icon_f92b202fd42465f989aafbe469036177);
+            
+    
+            var marker_d502a1d15ca8533d597b298462b41c7c = L.marker(
+                [53.7539277, -1.8771492],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_770774330241a2ea03266c1994909131 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4de7f9f1ab9a14a1342182e3da8a4e9d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f1e22dd4d0001677d34076227e5b8e4f = $(`<div id="html_f1e22dd4d0001677d34076227e5b8e4f" style="width: 100.0%; height: 100.0%;">Trinity Academy Halifax</div>`)[0];
+                popup_4de7f9f1ab9a14a1342182e3da8a4e9d.setContent(html_f1e22dd4d0001677d34076227e5b8e4f);
+            
+        
+
+        marker_d502a1d15ca8533d597b298462b41c7c.bindPopup(popup_4de7f9f1ab9a14a1342182e3da8a4e9d)
+        ;
+
+        
+    
+    
+            marker_d502a1d15ca8533d597b298462b41c7c.bindTooltip(
+                `<div>
+                     Trinity Academy Halifax
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d502a1d15ca8533d597b298462b41c7c.setIcon(icon_770774330241a2ea03266c1994909131);
+            
+    
+            var marker_fcf26d3111315ff1e261dfb33ba1e867 = L.marker(
+                [53.8743268, -1.7216074],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_eb22c428fead6a25eb0605ba7f8da8d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f042ec7028142a26abe407d0d4ae3b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_674c277ae3fc84955de1c6719c1c73af = $(`<div id="html_674c277ae3fc84955de1c6719c1c73af" style="width: 100.0%; height: 100.0%;">Green Meadows Academy</div>`)[0];
+                popup_5f042ec7028142a26abe407d0d4ae3b2.setContent(html_674c277ae3fc84955de1c6719c1c73af);
+            
+        
+
+        marker_fcf26d3111315ff1e261dfb33ba1e867.bindPopup(popup_5f042ec7028142a26abe407d0d4ae3b2)
+        ;
+
+        
+    
+    
+            marker_fcf26d3111315ff1e261dfb33ba1e867.bindTooltip(
+                `<div>
+                     Green Meadows Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fcf26d3111315ff1e261dfb33ba1e867.setIcon(icon_eb22c428fead6a25eb0605ba7f8da8d4);
+            
+    
+            var marker_971cb398e4169ce4253b0330b11d1c3a = L.marker(
+                [53.7209958, -1.6657451],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_93d1fc67a3e7cf257dc50f04d759fe84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b942ce81a9173a5f347833eca7b58f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c00b60a59ca6049a5fa575e8a7c13e78 = $(`<div id="html_c00b60a59ca6049a5fa575e8a7c13e78" style="width: 100.0%; height: 100.0%;">Fairfield School</div>`)[0];
+                popup_4b942ce81a9173a5f347833eca7b58f5.setContent(html_c00b60a59ca6049a5fa575e8a7c13e78);
+            
+        
+
+        marker_971cb398e4169ce4253b0330b11d1c3a.bindPopup(popup_4b942ce81a9173a5f347833eca7b58f5)
+        ;
+
+        
+    
+    
+            marker_971cb398e4169ce4253b0330b11d1c3a.bindTooltip(
+                `<div>
+                     Fairfield School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_971cb398e4169ce4253b0330b11d1c3a.setIcon(icon_93d1fc67a3e7cf257dc50f04d759fe84);
+            
+    
+            var marker_7702d7e4cda451fc956e510cac2d7bc1 = L.marker(
+                [53.7855637, -1.7455193],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_c9af0bbfedf98d5f64d0004f5025b238 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2c29596a10cdacef12125b184c55967 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eb9a47e2b10de36fb0efc62d98be6458 = $(`<div id="html_eb9a47e2b10de36fb0efc62d98be6458" style="width: 100.0%; height: 100.0%;">Bronte Girls' Secondary Academy</div>`)[0];
+                popup_d2c29596a10cdacef12125b184c55967.setContent(html_eb9a47e2b10de36fb0efc62d98be6458);
+            
+        
+
+        marker_7702d7e4cda451fc956e510cac2d7bc1.bindPopup(popup_d2c29596a10cdacef12125b184c55967)
+        ;
+
+        
+    
+    
+            marker_7702d7e4cda451fc956e510cac2d7bc1.bindTooltip(
+                `<div>
+                     Bronte Girls' Secondary Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7702d7e4cda451fc956e510cac2d7bc1.setIcon(icon_c9af0bbfedf98d5f64d0004f5025b238);
+            
+    
+            var marker_99cb6ac7d849ac9447e01c1470eb8483 = L.marker(
+                [53.786417, -1.7652387],
+                {
+}
+            ).addTo(map_4a1f81a5b4ca2ac37f91e48d749af436);
+        
+    
+            var icon_99c7c597e68a784ff9b76ced296afd8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "book",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f783402a8c88cb45d9526808adc0112 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f95cfe631da50e5dc621c2530427cca = $(`<div id="html_9f95cfe631da50e5dc621c2530427cca" style="width: 100.0%; height: 100.0%;">Dixons McMillan Academy</div>`)[0];
+                popup_7f783402a8c88cb45d9526808adc0112.setContent(html_9f95cfe631da50e5dc621c2530427cca);
+            
+        
+
+        marker_99cb6ac7d849ac9447e01c1470eb8483.bindPopup(popup_7f783402a8c88cb45d9526808adc0112)
+        ;
+
+        
+    
+    
+            marker_99cb6ac7d849ac9447e01c1470eb8483.bindTooltip(
+                `<div>
+                     Dixons McMillan Academy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_99cb6ac7d849ac9447e01c1470eb8483.setIcon(icon_99c7c597e68a784ff9b76ced296afd8f);
+            
+</script>
+</html>

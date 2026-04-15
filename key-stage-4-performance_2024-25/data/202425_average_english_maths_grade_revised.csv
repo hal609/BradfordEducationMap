@@ -1,0 +1,15 @@
+time_period,time_identifier,geographic_level,country_code,country_name,version,subject,avg_grade
+202425,Academic year,National,E92000001,England,Revised,English language,4.5
+202425,Academic year,National,E92000001,England,Revised,Mathematics,4.6
+202324,Academic year,National,E92000001,England,Final,English language,4.5
+202324,Academic year,National,E92000001,England,Final,Mathematics,4.6
+202223,Academic year,National,E92000001,England,Final,English language,4.5
+202223,Academic year,National,E92000001,England,Final,Mathematics,4.6
+202122,Academic year,National,E92000001,England,Final,English language,4.8
+202122,Academic year,National,E92000001,England,Final,Mathematics,4.7
+202021,Academic year,National,E92000001,England,Revised,English language,5
+202021,Academic year,National,E92000001,England,Revised,Mathematics,4.9
+201920,Academic year,National,E92000001,England,Revised,English language,4.9
+201920,Academic year,National,E92000001,England,Revised,Mathematics,4.9
+201819,Academic year,National,E92000001,England,Final,English language,4.5
+201819,Academic year,National,E92000001,England,Final,Mathematics,4.5
