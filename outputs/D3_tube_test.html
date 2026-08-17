@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D3 Metro Map</title>
+    <!-- Load D3 and the Tube Map plugin -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/d3-tube-map@2.0.0/dist/d3-tube-map.js"></script>
+    <style>
+        #tube-map {
+            width: 100%;
+            height: 800px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div id="tube-map"></div>
+
+    <script>
+        const container = d3.select('#tube-map');
+        const width = container.node().getBoundingClientRect().width;
+        const height = 800;
+
+        // Initialize the tube map generator
+        const map = d3.tubeMap()
+            .width(width)
+            .height(height)
+            .margin({ top: 20, right: 20, bottom: 20, left: 20 });
+
+        // Load the JSON exported from Python
+        d3.json("metro_data.json").then(function(data) {
+            
+            // Render the SVG
+            container.datum(data).call(map);
+
+            // Optional: Implement zooming and panning
+            const svg = container.select('svg');
+            const zoom = d3.zoom()
+                .scaleExtent([0.5, 6])
+                .on('zoom', (event) => {
+                    svg.select('g').attr('transform', event.transform);
+                });
+            
+            svg.call(zoom);
+        });
+    </script>
+</body>
+</html>
